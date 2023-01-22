@@ -2,7 +2,12 @@ import java.util.Scanner;
 
 public class exam46exams {
     public static void main(String[] args) {
-        exam16();
+        int n1 = 18;
+        int n2 = 12;
+        int temp = 0;
+        //temp=gcd(n1, n2);
+        //System.out.println(temp);
+        exam21();
     }
 
     public static void exam1() {
@@ -255,6 +260,73 @@ public class exam46exams {
         System.out.println("your total salary this month is = " + (int) totalsalery);
     }
 
+    public static void exam17() {
+        Scanner scanner = new Scanner(System.in);
+        int counter = 0;
+        int num;
+        while (counter < 5) {
+            System.out.println("Enter couple number");
+            num = scanner.nextInt();
+            if (num % 2 == 0) {
+                counter++;
+            }
+        }
+    }
+
+    public static void exam18() {
+        Scanner scanner = new Scanner(System.in);
+        int counter = 0;
+        int counterDiviosn = 0;
+        int num = 0;
+        while (counter < 10) {
+            System.out.println("Enter number");
+            num = scanner.nextInt();
+            counter++;
+            if (num % 3 == 0) {
+                counterDiviosn++;
+            }
+        }
+        System.out.println(counterDiviosn);
+    }
+
+    public static void exam19() {
+        Scanner scanner = new Scanner(System.in);
+        int number;
+        do {
+            System.out.println("Enter tow-digit number with equals digits");
+            number = scanner.nextInt();
+        }
+        while (number / 10 != number % 10);
+    }
+
+    public static int exam20(int number1, int number2) {
+        int bigNumber;
+        int temp = 0;
+        if (number1 > number2) {
+            bigNumber = number1;
+        } else {
+            bigNumber = number2;
+        }
+        for (int i = 2; i <= bigNumber; i++) {
+            if (number1 % i == 0 && number2 % i == 0) {
+                temp = i;
+            }
+        }
+        return temp;
+    }
+
+    public static void exam21() {
+        Scanner scanner = new Scanner(System.in);
+        int number;
+        int counterDigits = 0;
+        System.out.println("Enter numebr");
+        number = scanner.nextInt();
+        while (number != 0) {
+            number = number / 10;
+            counterDigits++;
+        }
+        System.out.println(counterDigits);
+    }
 
 }
 
