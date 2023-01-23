@@ -1,13 +1,14 @@
+import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class exam46exams {
     public static void main(String[] args) {
-        int n1 = 18;
-        int n2 = 12;
-        int temp = 0;
-        //temp=gcd(n1, n2);
-        //System.out.println(temp);
-        exam21();
+        int[] arr1 = {4363, 12756, 1278, 9550};
+        int[] arr2 = {5, 3, 122, 8, 1, 12, 6, 7, 8};
+        int n2 = 50;
+        exam45(arr1);
+        //exam34x3();
     }
 
     public static void exam1() {
@@ -328,5 +329,505 @@ public class exam46exams {
         System.out.println(counterDigits);
     }
 
+    public static void exam22() {
+        Scanner scanner = new Scanner(System.in);
+        int number = 0;
+        int sum = 0;
+        System.out.println("Enter numebr");
+        number = scanner.nextInt();
+        while (number != 0) {
+            sum += number % 10;
+            number = number / 10;
+        }
+        System.out.println(sum);
+    }
+
+    public static void exam23() {
+        Scanner scanner = new Scanner(System.in);
+        int number = 0;
+        int firstDigit = 0;
+        int lastDigit = 0;
+        System.out.println("Enter numebr");
+        number = scanner.nextInt();
+        lastDigit = number % 10;
+        while (number != 0) {
+            number = number / 10;
+            firstDigit = number % 10;
+            if (number >= 1 && number < 9) {
+                break;
+            }
+        }
+        if (firstDigit == lastDigit) {
+            System.out.println("beautiful number");
+        } else {
+            System.out.println("ugly number");
+
+        }
+    }
+
+    public static void exam24() {
+        int number = 0;
+        int firstDigit = 0;
+        int lastDigit = 0;
+        for (int i = 1; i <= 1000; i++) {
+            number = i;
+            lastDigit = number % 10;
+            while (number != 0) {
+                number = number / 10;
+                firstDigit = number % 10;
+                if (number >= 1 && number <= 9) {
+                    break;
+                }
+            }
+            if (firstDigit == lastDigit) {
+                System.out.print(i + ", ");
+            }
+        }
+    }
+
+    public static int exam25(int number, int digit) {
+        int counter = 0;
+        while (number != 0) {
+            if (number % 10 == digit) {
+                counter++;
+            }
+            number = number / 10;
+        }
+        return counter;
+    }
+
+    public static int[] exam26(int parameter1, int parameter2) {
+        int[] array = new int[parameter1];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = parameter2;
+        }
+        System.out.println(Arrays.toString(array));
+        return array;
+    }
+
+    public static int[] exam27(int parameter1, int parameter2) {
+        int[] array = new int[parameter1];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (parameter2) + i;
+        }
+        System.out.println(Arrays.toString(array));
+        return array;
+    }
+
+    public static int[] exam28(int parameter1) {
+        Random random = new Random();
+        int[] array = new int[parameter1];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = random.nextInt(1, 1000);
+        }
+        System.out.println(Arrays.toString(array));
+        return array;
+    }
+
+    public static int exam29(int[] array) {
+        int theHighestNumber = 0;
+        theHighestNumber = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > theHighestNumber) {
+                theHighestNumber = array[i];
+            }
+        }
+        System.out.println(theHighestNumber);
+        return theHighestNumber;
+    }
+
+    public static int exam30(int[] array, int number) {
+        int counetr = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == number) {
+                counetr++;
+            }
+        }
+        //System.out.println(counetr);
+        return counetr;
+    }
+
+    public static int[] exam31(int[] array, int number) {
+        int counter = exam30(array, number);
+        int[] newArray = new int[array.length - counter];
+        for (int i = 0; i < newArray.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                if (array[j] != number) {
+                    newArray[i] = array[j];
+                    i++;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int exam32(int[] array1, int[] array2) {
+        int sumArray1 = 0;
+        int sumArray2 = 0;
+        int answer;
+        for (int i = 0; i < array1.length; i++) {
+            sumArray1 += array1[i];
+        }
+        for (int i = 0; i < array2.length; i++) {
+            sumArray2 += array2[i];
+        }
+        if (sumArray1 > sumArray2) {
+            answer = 1;
+        } else if (sumArray2 > sumArray1) {
+            answer = 2;
+        } else {
+            answer = 0;
+        }
+        System.out.println(answer);
+        return answer;
+    }
+
+    public static void exam33x1(int[] array) {
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Enter number");
+            array[i] = scanner.nextInt();
+        }
+    }
+
+    public static void exam33x2(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                System.out.print(array[i] + ",");
+            }
+        }
+    }
+
+    public static void exam33x3() {
+        final int ARRAY_LENGTH = 10;
+        int[] array = new int[ARRAY_LENGTH];
+        exam33x1(array);
+        exam33x2(array);
+        //System.out.print(Arrays.toString(array));
+    }
+
+    public static void exam34x1(int[] array, int num) {
+        int temp = 1;
+        for (int i = 0; i < array.length; i++) {
+            array[i] = num * temp;
+            temp++;
+        }
+    }
+
+    public static void exam34x2(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + ",");
+        }
+    }
+
+    public static void exam34x3() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your array size");
+        int arraySize = scanner.nextInt();
+        System.out.println("Enter your number");
+        int number = scanner.nextInt();
+        int[] array = new int[arraySize];
+        exam34x1(array, number);
+        exam34x2(array);
+    }
+
+    public static void exam35(int[] array) {
+        for (int i = 1; i < array.length; i += 2) {
+            array[i] = array[i] * 3;
+        }
+        System.out.println(Arrays.toString(array));
+    }
+
+    public static boolean exam36(int[] array) {
+        boolean answer = false;
+        int maxNum = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > maxNum) {
+                maxNum = array[i];
+            }
+            if (maxNum == array[array.length - 1]) {
+                answer = true;
+            } else {
+                answer = false;
+            }
+        }
+        System.out.println(answer);
+        return answer;
+    }
+
+    public static int exam37(int[] array, int num) {
+        int sum = 0;
+        int index = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (sum < num) {
+                sum += array[i];
+                index = i;
+            } else {
+                break;
+            }
+        }
+        System.out.println(index);
+        return index;
+    }
+
+    public static int exam38(int[] array, int num) {
+        int counter = 0;
+        for (int i = 0; i <= array.length; i++) {
+            if (array[i] != num) {
+                counter++;
+            } else {
+                break;
+            }
+        }
+        for (int j = 0; j <= array.length; j++) {
+            if (array[array.length - 1 - j] != num) {
+                counter++;
+            } else {
+                break;
+            }
+        }
+        System.out.println(counter);
+        return counter;
+    }
+
+    public static int[] exan39(int[] array, int num) {
+        final int SIZE_ARRAY = 3;
+        int[] newArray = new int[SIZE_ARRAY];
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < num) {
+                newArray[0]++;
+            } else if (array[i] == num) {
+                newArray[1]++;
+            } else {
+                newArray[2]++;
+            }
+        }
+        System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int[] exam40(int[] array1, int[] array2) {
+        int counter = 0;
+        for (int i = 0; i < array1.length; i++) {
+            for (int j = 0; j < array2.length; j++) {
+                if (array1[i] == array2[j]) {
+                    counter++;
+                }
+            }
+        }
+        int k = 0;
+        int[] newArray = new int[counter];
+        for (int i = 0; i < array1.length; i++) {
+            for (int j = 0; j < array2.length; j++) {
+                if (array1[i] == array2[j]) {
+                    newArray[k] = array2[j];
+                    k++;
+                }
+
+            }
+        }
+        System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int[] exam41(int[] array1, int[] array2) {
+        int[] tempArray = new int[array1.length + array2.length];
+        int k = 0;
+        for (int i = 0; i < array1.length; i++) {
+            tempArray[k] = array1[i];
+            k++;
+        }
+        for (int i = 0; i < array2.length; i++) {
+            tempArray[k] = array2[i];
+            k++;
+        }
+        int counter = 0;
+        for (int i = 0; i < tempArray.length; i++) {
+            for (int j = i + 1; j < tempArray.length; j++) {
+                if (tempArray[i] == tempArray[j]) {
+                    counter++;
+                }
+            }
+        }
+        int[] newArray = new int[tempArray.length];
+        boolean isExist = false;
+        int index = 0;
+        counter = 0;
+        for (int i = 0; i < tempArray.length; i++) {
+            for (int j = 0; j < newArray.length; j++) {
+                if (tempArray[i] == newArray[j]) {
+                    isExist = true;
+                    break;
+                }
+            }
+            if (!isExist) {
+                newArray[index] = tempArray[i];
+                index++;
+                counter++;
+            } else {
+                isExist = false;
+            }
+        }
+        int[] finalArray = new int[counter];
+        for (int i = 0; i < finalArray.length; i++) {
+            finalArray[i] = newArray[i];
+        }
+        System.out.println(Arrays.toString(finalArray));
+        return finalArray;
+    }
+
+    public static int[] removeDup(int[] tempArray) {
+        int[] newArray = new int[tempArray.length];
+        boolean isExist = false;
+        int index = 0;
+        int counter = 0;
+        for (int i = 0; i < tempArray.length; i++) {
+            for (int j = 0; j < newArray.length; j++) {
+                if (tempArray[i] == newArray[j]) {
+                    isExist = true;
+                    break;
+                }
+            }
+            if (!isExist) {
+                newArray[index] = tempArray[i];
+                index++;
+                counter++;
+            } else {
+                isExist = false;
+            }
+        }
+        int[] finalArray = new int[counter];
+        for (int i = 0; i < finalArray.length; i++) {
+            finalArray[i] = newArray[i];
+        }
+        return finalArray;
+    }
+
+    public static boolean exam42(int[] array1, int[] array2) {
+        boolean answer = false;
+        boolean flag = true;
+        int counter = 0;
+        array1 = removeDup(array1);
+        array2 = removeDup(array2);
+        if (array1.length == array2.length) {
+            for (int i = 0; i < array1.length; i++) {
+                for (int j = 0; j < array2.length; j++) {
+                    if (array1[i] == array2[j]) {
+                        counter++;
+                    }
+                }
+            }
+        } else {
+            flag = false;
+        }
+        if (counter == array1.length) {
+            answer = true;
+        }
+        System.out.println(answer);
+        return answer;
+    }
+
+    public static int[] exam43x1(int[] array1, int[] array2) {
+        int thebiggerLength = 0;
+        int thebiggerarray = 0;
+        if (array1.length > array2.length) {
+            thebiggerLength = array1.length;
+            thebiggerarray = 1;
+        }
+        if (array2.length > array1.length) {
+            thebiggerLength = array2.length;
+            thebiggerarray = 2;
+        }
+        int[] newArray = new int[thebiggerLength];
+        switch (thebiggerarray) {
+            case 1 -> {
+                for (int i = 0; i < array2.length; i++) {
+                    newArray[i] = array2[i];
+                }
+            }
+            case 2 -> {
+                for (int i = 0; i < array1.length; i++) {
+                    newArray[i] = array1[i];
+                }
+            }
+        }
+        //System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int[] exam43x2(int[] array1, int[] array2) {
+        if (array1.length > array2.length) {
+            array2 = exam43x1(array1, array2);
+        }
+        if (array2.length > array2.length) {
+            array1 = exam43x1(array1, array2);
+        }
+        int[] newArray = new int[array1.length];
+        for (int i = 0; i < newArray.length; i++) {
+            newArray[i] = (array1[i] + array2[i]) / 2;
+        }
+        System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int[] exam44x1(int[] array) {
+        int[] newArray = new int[array.length];
+        newArray[0] = array[array.length - 1];
+        for (int i = 0; i < array.length - 1; i++) {
+            newArray[i + 1] = array[i];
+        }
+        return newArray;
+        //System.out.println(Arrays.toString(newArray));
+    }
+
+    public static int[] exam44x2(int[] array) {
+        int[] newArray = new int[array.length];
+        newArray[newArray.length - 1] = array[0];
+        for (int i = 0; i < array.length - 1; i++) {
+            newArray[i] = array[i + 1];
+        }
+        return newArray;
+        //System.out.println(Arrays.toString(newArray));
+    }
+
+    public static int[] exam44X3(int[] array, boolean left, int shifts) {
+        int[] newArray = array;
+        if (left) {
+            for (int i = 0; i < shifts; i++) {
+                newArray = exam44x2(newArray);
+            }
+        } else {
+            for (int i = 0; i < shifts; i++) {
+                newArray = exam44x1(newArray);
+            }
+        }
+        System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int[] exam45(int[] array) {
+        int[] newArray = new int[10];
+        int[] tempArray = new int[array.length];
+        int temp = 0;
+        for (int i = 0; i < newArray.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                tempArray[j] = array[j];
+            }
+            for (int j = 0; j < tempArray.length; j++) {
+                while (tempArray[j] != 0) {
+                    temp = tempArray[j] % 10;
+                    if (temp == i) {
+                        newArray[i]++;
+                    }
+                    tempArray[j] = tempArray[j] / 10;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
 }
+
+
 
