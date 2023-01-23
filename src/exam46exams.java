@@ -7,7 +7,7 @@ public class exam46exams {
         int[] arr1 = {4363, 12756, 1278, 9550};
         int[] arr2 = {5, 3, 122, 8, 1, 12, 6, 7, 8};
         int n2 = 50;
-        exam45(arr1);
+        exam46(121111, 1);
         //exam34x3();
     }
 
@@ -826,6 +826,50 @@ public class exam46exams {
         }
         System.out.println(Arrays.toString(newArray));
         return newArray;
+    }
+
+    public static int exam46(int num, int digit) {
+        int finalNum = 0;
+        int counter = 0;
+        int temp = num;
+        while (temp != 0) {
+            counter++;
+            temp = temp / 10;
+        }
+        int[] numArray = new int[counter];
+        for (int i = 0; i < numArray.length; i++) {
+            numArray[numArray.length - 1 - i] = num % 10;
+            num = num / 10;
+        }
+        int[] newArray = new int[numArray.length];
+        boolean isExist = false;
+        int index = 0;
+        counter = 0;
+        for (int i = 0; i < numArray.length; i++) {
+            for (int j = 0; j < newArray.length; j++) {
+                if (numArray[i] == digit) {
+                    isExist = true;
+                    break;
+                }
+            }
+            if (!isExist) {
+                newArray[index] = numArray[i];
+                index++;
+                counter++;
+            } else {
+                isExist = false;
+            }
+        }
+        int[] finalArray = new int[counter];
+        for (int i = 0; i < finalArray.length; i++) {
+            finalArray[i] = newArray[i];
+        }
+        for (int i = 0; i < finalArray.length; i++) {
+            finalNum += finalArray[i] * Math.pow(10, counter - i);
+        }
+        finalNum = finalNum / 10;
+        System.out.println(finalNum);
+        return finalNum;
     }
 }
 
