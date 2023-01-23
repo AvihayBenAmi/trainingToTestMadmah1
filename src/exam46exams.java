@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class exam46exams {
     public static void main(String[] args) {
-        int[] arr1 = {4363, 12756, 1278, 9550};
+        int[] arr1 = {3,2,2,2,5,6,6,1,3,3,3,3,1,2};
         int[] arr2 = {5, 3, 122, 8, 1, 12, 6, 7, 8};
         int n2 = 50;
-        exam46(121111, 1);
+        //exam46(arr1, 1);
         //exam34x3();
     }
 
@@ -871,6 +871,8 @@ public class exam46exams {
         System.out.println(finalNum);
         return finalNum;
     }
+
+
 }
 
 
