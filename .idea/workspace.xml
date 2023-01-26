@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c468efe7-ec6d-400d-883d-052bbe12450b" name="Changes" comment="22.01.23 11:17">
-      <change afterPath="$PROJECT_DIR$/src/Strings1x1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings1x2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examHIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
+    </list>
+    <list id="cc68416b-bc12-45f3-8b84-4c75f75704ec" name="Changes by david" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Strings2.java">
+      <ranges>
+        <range start1="5" end1="6" start2="5" end2="6" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="8" end1="9" start2="8" end2="9" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="10" end1="11" start2="10" end2="11" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="176" end1="177" start2="176" end2="177" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="184" end1="187" start2="184" end2="185" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="191" end1="191" start2="189" end2="190" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="211" end1="212" start2="210" end2="211" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="263" end1="264" start2="262" end2="262" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="271" end1="273" start2="269" end2="272" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="274" end1="277" start2="273" end2="273" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="279" end1="279" start2="275" end2="278" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="280" end1="281" start2="279" end2="280" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="282" end1="282" start2="281" end2="297" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,19 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aviha/OneDrive/שולחן העבודה/פרויקטים מדעי המחשב/trainingToTestMadmah1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aviha/OneDrive/שולחן העבודה/פרויקטים מדעי המחשב/trainingToTestMadmah1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +83,8 @@
       <workItem from="1674458000502" duration="22380000" />
       <workItem from="1674480791535" duration="7604000" />
       <workItem from="1674643809010" duration="643000" />
-      <workItem from="1674720814815" duration="18938000" />
+      <workItem from="1674720814815" duration="19151000" />
+      <workItem from="1674756333785" duration="7504000" />
     </task>
     <task id="LOCAL‎-00001" summary="22.01.23 11:17">
       <created>1674379030510</created>
@@ -126,7 +149,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1674643816806</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎-00010" summary="22.01.23 11:17">
+      <created>1674740756086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1674740756086</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,16 +189,6 @@
           <url>file://$PROJECT_DIR$/src/Strings1x1.java</url>
           <line>38</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Strings2.java</url>
-          <line>183</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Strings2.java</url>
-          <line>269</line>
-          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/functions.java</url>
@@ -214,6 +234,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
+          <line>8</line>
+          <properties class="exercises2" method="exam1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/examHIT.java</url>
+          <line>8</line>
+          <properties class="examHIT" method="exam1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

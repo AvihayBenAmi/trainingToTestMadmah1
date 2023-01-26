@@ -3,12 +3,12 @@ import java.util.Scanner;
 
 public class Strings2 {
     public static void main(String[] args) {
-        String str1 = "I want it, I got it";
+        String str1 = "race cars";
         String str2 = "sryg abccba gyrs";
         char[] chars = {'i', 'a', 't', 'c', 'n'};
-        char ch = 'a';
+        char ch = 'C';
         String[] strings = {"Vairiables", "Conditions", "Loops", "Funtctions", "Arrays", "Strings"};
-        System.out.println(exam13(str1));
+        System.out.println(exam13("I want it, I got it"));
         //exam12();
     }
 
@@ -174,7 +174,7 @@ public class Strings2 {
 
     public static boolean exam10(String str1) {
         String normalString = "";
-        boolean answer = false;
+        boolean answer = true;
         str1 = str1.toUpperCase();
         for (int i = 0; i < str1.length(); i++) {
             if (str1.charAt(i) >= 'A' && str1.charAt(i) <= 'Z') {
@@ -182,13 +182,12 @@ public class Strings2 {
             }
         }
         for (int i = 0; i < normalString.length(); i++) {
-            if (normalString.charAt(i) == normalString.charAt(normalString.length() - 1 - i)) {
-                answer = true;
-            } else {
+            if (!(normalString.charAt(i) == normalString.charAt(normalString.length() - 1 - i))) {
                 answer = false;
                 break;
             }
         }
+        System.out.println(answer);
         return answer;
     }
 
@@ -209,7 +208,7 @@ public class Strings2 {
                 k++;
             }
         }
-        //System.out.println(Arrays.toString(answer));
+        System.out.println(Arrays.toString(answer));
         return answer;
     }
 
@@ -261,7 +260,6 @@ public class Strings2 {
 
     public static String exam13(String str1) {
         String[] strings;
-        str1 = str1.toLowerCase();
         strings = str1.split(" ");
         String newString = "";
         for (int i = 0; i < strings.length; i++) {
@@ -269,15 +267,16 @@ public class Strings2 {
         }
         String totalString = "";
         for (int i = 0; i < newString.length(); i++) {
-            for (int j = i + 1; j < newString.length(); j++) {
-                if (newString.charAt(i) == newString.charAt(j)) {
-                    break;
-                } else {
-                    totalString += newString.charAt(i);
+            int j = 0;
+            for (j = 0; j < i; j++) {
+                if (Character.toLowerCase(newString.charAt(i)) == Character.toLowerCase(newString.charAt(j))) {
                     break;
                 }
             }
+            if (j == i) {
+                totalString += newString.charAt(i);
+            }
         }
-        return newString;
+        return totalString;
     }
 }
