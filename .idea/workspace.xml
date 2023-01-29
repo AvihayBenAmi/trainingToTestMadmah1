@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c468efe7-ec6d-400d-883d-052bbe12450b" name="Changes" comment="26.01.23 23:57">
-      <change afterPath="$PROJECT_DIR$/src/homework1x1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework2X6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework2x5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/examHIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examHIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1x1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1x1.java" afterDir="false" />
     </list>
     <list id="cc68416b-bc12-45f3-8b84-4c75f75704ec" name="Changes by david" comment="">
       <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
@@ -96,7 +99,7 @@
       <workItem from="1674756333785" duration="12996000" />
       <workItem from="1674903493280" duration="325000" />
       <workItem from="1674925789222" duration="6994000" />
-      <workItem from="1674979390402" duration="1001000" />
+      <workItem from="1674979390402" duration="12860000" />
     </task>
     <task id="LOCAL‎-00001" summary="22.01.23 11:17">
       <created>1674379030510</created>
@@ -175,7 +178,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1674763924282</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎-00012" summary="26.01.23 23:57">
+      <created>1674980575548</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1674980575548</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +224,11 @@
           <url>file://$PROJECT_DIR$/src/homework1x1.java</url>
           <line>145</line>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework2x5.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/functions.java</url>
@@ -277,6 +292,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/homework2.java</url>
+          <line>57</line>
+          <properties class="homework2" method="exam4">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/homework2x5.java</url>
+          <line>37</line>
+          <properties class="homework2x5" method="getPositionFromUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
