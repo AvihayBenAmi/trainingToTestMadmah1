@@ -45,7 +45,10 @@ public class homework2X6 {
         subS = quadric.substring(0, index);
         if (subS.equals("-")) {
             aParameter = -1;
-        } else {
+        } else if (subS.equals("")){
+            aParameter = 1;
+    }
+        else {
             aParameter = Integer.parseInt(subS);
         }
         return aParameter;
@@ -62,9 +65,11 @@ public class homework2X6 {
         subS = subS.substring(0, indexx);
         if (subS.equals("-")) {
             bParameter = -1;
-        } else {
-            bParameter = Integer.parseInt(subS);
+        } else if(subS.equals("")) {
+            bParameter=1;
         }
+        else{
+        bParameter = Integer.parseInt(subS);}
         return bParameter;
     }
 
@@ -82,9 +87,10 @@ public class homework2X6 {
         subS = subS.substring(0, index0);
         if (subS.equals("-")) {
             cParameter = -1;
-        } else {
-            cParameter = Integer.parseInt(subS);
+        } else if(subS.equals("")) {
+            cParameter=1;
         }
+        else{ cParameter = Integer.parseInt(subS);}
         return cParameter;
     }
 
