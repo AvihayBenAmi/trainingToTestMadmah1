@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c468efe7-ec6d-400d-883d-052bbe12450b" name="Changes" comment="22.01.23 11:17">
-      <change afterPath="$PROJECT_DIR$/src/examHIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises2.java" afterDir="false" />
+    <list default="true" id="c468efe7-ec6d-400d-883d-052bbe12450b" name="Changes" comment="26.01.23 23:57">
+      <change afterPath="$PROJECT_DIR$/src/homework1x1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examHIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examHIT.java" afterDir="false" />
     </list>
     <list id="cc68416b-bc12-45f3-8b84-4c75f75704ec" name="Changes by david" comment="">
       <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examHIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examHIT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +29,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Strings2.java">
+    <file path="$PROJECT_DIR$/src/examHIT.java">
       <ranges>
-        <range start1="5" end1="6" start2="5" end2="6" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="8" end1="9" start2="8" end2="9" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="10" end1="11" start2="10" end2="11" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="176" end1="177" start2="176" end2="177" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="184" end1="187" start2="184" end2="185" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="191" end1="191" start2="189" end2="190" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="211" end1="212" start2="210" end2="211" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="263" end1="264" start2="262" end2="262" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="271" end1="273" start2="269" end2="272" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="274" end1="277" start2="273" end2="273" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="279" end1="279" start2="275" end2="278" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="280" end1="281" start2="279" end2="280" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="282" end1="282" start2="281" end2="297" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+        <range start1="4" end1="5" start2="4" end2="12" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
+        <range start1="17" end1="19" start2="24" end2="25" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+        <range start1="20" end1="24" start2="26" end2="30" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+        <range start1="30" end1="32" start2="36" end2="38" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+        <range start1="34" end1="35" start2="40" end2="41" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+        <range start1="39" end1="42" start2="45" end2="49" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+        <range start1="43" end1="44" start2="50" end2="51" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
+        <range start1="51" end1="51" start2="58" end2="201" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
       </ranges>
     </file>
   </component>
@@ -71,6 +66,20 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="examHIT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examHIT" />
+      <module name="trainingToTestMadmah1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.examHIT" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +93,10 @@
       <workItem from="1674480791535" duration="7604000" />
       <workItem from="1674643809010" duration="643000" />
       <workItem from="1674720814815" duration="19151000" />
-      <workItem from="1674756333785" duration="7504000" />
+      <workItem from="1674756333785" duration="12996000" />
+      <workItem from="1674903493280" duration="325000" />
+      <workItem from="1674925789222" duration="6994000" />
+      <workItem from="1674979390402" duration="1001000" />
     </task>
     <task id="LOCAL‎-00001" summary="22.01.23 11:17">
       <created>1674379030510</created>
@@ -156,7 +168,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1674740756086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎-00011" summary="22.01.23 11:17">
+      <created>1674763924282</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1674763924282</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +194,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22.01.23 11:17" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.01.23 11:17" />
+    <MESSAGE value="26.01.23 23:57" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.01.23 23:57" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,6 +209,11 @@
           <url>file://$PROJECT_DIR$/src/Strings1x1.java</url>
           <line>38</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework1x1.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/functions.java</url>
@@ -246,12 +271,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/examHIT.java</url>
-          <line>8</line>
-          <properties class="examHIT" method="exam1">
+          <line>169</line>
+          <properties class="examHIT" method="noDuplicate">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="63" />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
