@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c468efe7-ec6d-400d-883d-052bbe12450b" name="Changes" comment="26.01.23 23:57">
-      <change afterPath="$PROJECT_DIR$/src/homework2X7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examHIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examHIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework2X6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2X6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises2.java" afterDir="false" />
     </list>
-    <list id="cc68416b-bc12-45f3-8b84-4c75f75704ec" name="Changes by david" comment="">
+    <list id="cc68416b-bc12-45f3-8b84-4c75f75704ec" name="Changes by david" comment="Changes by david">
       <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/examHIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examHIT.java" afterDir="false" />
     </list>
@@ -28,20 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/examHIT.java">
-      <ranges>
-        <range start1="4" end1="5" start2="4" end2="12" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-        <range start1="17" end1="19" start2="24" end2="25" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
-        <range start1="20" end1="24" start2="26" end2="30" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
-        <range start1="30" end1="32" start2="36" end2="38" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
-        <range start1="34" end1="35" start2="40" end2="41" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
-        <range start1="39" end1="42" start2="45" end2="49" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
-        <range start1="43" end1="44" start2="50" end2="51" changelist="cc68416b-bc12-45f3-8b84-4c75f75704ec" />
-        <range start1="51" end1="51" start2="58" end2="201" changelist="c468efe7-ec6d-400d-883d-052bbe12450b" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +81,8 @@
       <workItem from="1674756333785" duration="12996000" />
       <workItem from="1674903493280" duration="325000" />
       <workItem from="1674925789222" duration="6994000" />
-      <workItem from="1674979390402" duration="19505000" />
+      <workItem from="1674979390402" duration="20487000" />
+      <workItem from="1675008619897" duration="18498000" />
     </task>
     <task id="LOCAL‎-00001" summary="22.01.23 11:17">
       <created>1674379030510</created>
@@ -190,7 +175,21 @@
       <option name="project" value="LOCAL‎" />
       <updated>1674994178923</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL‎-00014" summary="26.01.23 23:57">
+      <created>1675001009007</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL‎-00014" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1675001009007</updated>
+    </task>
+    <task id="LOCAL‎-00015" summary="26.01.23 23:57">
+      <created>1675001027763</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL‎-00015" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1675001027763</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +239,21 @@
           <line>14</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
+          <line>274</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
+          <line>305</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/functions.java</url>
           <line>72</line>
@@ -286,15 +300,6 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
-          <line>8</line>
-          <properties class="exercises2" method="exam1">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/examHIT.java</url>
           <line>169</line>
           <properties class="examHIT" method="noDuplicate">
@@ -330,7 +335,37 @@
           </properties>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
+          <line>51</line>
+          <properties class="exercises2" method="exam3">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
+          <line>133</line>
+          <properties class="exercises2" method="exam7">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercises2.java</url>
+          <line>193</line>
+          <properties class="exercises2" method="exam10">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trainingToTestMadmah1$exercises2.ic" NAME="exercises2 Coverage Results" MODIFIED="1675061908044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
