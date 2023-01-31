@@ -1,9 +1,12 @@
+import java.util.Arrays;
+
 public class shaiClass {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        int[] arr = {1, 2, 3, 4, 5};
+        int[] arr2 = {2, 3, 4, 5, 1};
         String[] name = {"aaaBBBAAAbbbZZzz", "aabbaaAA", "asBShf"};
         char ch = 'a';
-        mostSpecialString(name, ch);
+        fastestCircularTransformation(arr2, arr);
     }
 
     public static int printHighest(int[] array) {
@@ -127,5 +130,78 @@ public class shaiClass {
         answer = strings[index];
         System.out.println(answer);
         return answer;
+    }
+
+    public static int[] turnRight(int[] array) {
+        int[] newArray = new int[array.length];
+        newArray[0] = array[array.length - 1];
+        for (int i = 0; i < newArray.length - 1; i++) {
+            newArray[i + 1] = array[i];
+        }
+        //System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int[] turnLeft(int[] array) {
+        int[] newArray = new int[array.length];
+        newArray[array.length - 1] = array[0];
+        for (int i = 0; i < newArray.length - 1; i++) {
+            newArray[i] = array[i + 1];
+        }
+        //System.out.println(Arrays.toString(newArray));
+        return newArray;
+    }
+
+    public static int fastestCircularTransformation(int[] original, int[] target) {
+        int counterleft = 0;
+        int counterRight = 0;
+        int[] tempOriginal = new int[original.length];
+        int answer = 0;
+        tempOriginal = original;
+        boolean check = false;
+        if (original.length == target.length) {
+            while (!check) {
+                tempOriginal = turnLeft(tempOriginal);
+                counterleft++;
+                check = ifEquals(tempOriginal, target);
+                if (counterleft > 6) {
+                    break;
+                }
+            }
+            check = false;
+            while (!check) {
+                tempOriginal = turnRight(tempOriginal);
+                counterRight++;
+                check = ifEquals(tempOriginal, target);
+                if (counterRight > 6) {
+                    break;
+                }
+            }
+        }
+        if (counterleft >= 6 || counterRight >= 6) {
+            answer = 0;
+        }
+        if (counterleft < counterRight) {
+            answer = 1;
+        }
+        if (counterRight < counterleft) {
+            answer = 2;
+        }
+        if (counterleft == counterRight && counterleft < 6 && counterRight < 6) {
+            answer = 3;
+        }
+        System.out.println(answer);
+        return answer;
+    }
+
+    public static boolean ifEquals(int[] arr1, int[] arr2) {
+        boolean answer = true;
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i] != arr2[i]) {
+                answer = false;
+            }
+        }
+        return answer;
+
     }
 }
