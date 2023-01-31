@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c468efe7-ec6d-400d-883d-052bbe12450b" name="Changes" comment="26.01.23 23:57">
-      <change afterPath="$PROJECT_DIR$/src/noa47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaiClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/noa47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/noa47.java" afterDir="false" />
     </list>
     <list id="cc68416b-bc12-45f3-8b84-4c75f75704ec" name="Changes by david" comment="Changes by david">
       <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
@@ -82,7 +83,8 @@
       <workItem from="1674903493280" duration="325000" />
       <workItem from="1674925789222" duration="6994000" />
       <workItem from="1674979390402" duration="20487000" />
-      <workItem from="1675008619897" duration="33084000" />
+      <workItem from="1675008619897" duration="33806000" />
+      <workItem from="1675155045961" duration="7211000" />
     </task>
     <task id="LOCAL‎-00001" summary="22.01.23 11:17">
       <created>1674379030510</created>
@@ -196,7 +198,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1675067715242</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL‎-00017" summary="26.01.23 23:57">
+      <created>1675082455367</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL‎-00017" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1675082455367</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +380,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/noa47.java</url>
-          <line>149</line>
+          <line>148</line>
           <properties class="noa47" method="exam13">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -380,7 +389,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/noa47.java</url>
-          <line>441</line>
+          <line>440</line>
           <properties class="noa47" method="exam37">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -389,7 +398,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/noa47.java</url>
-          <line>530</line>
+          <line>529</line>
           <properties class="noa47" method="exam42">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -398,12 +407,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/noa47.java</url>
-          <line>589</line>
+          <line>588</line>
           <properties class="noa47" method="exam46">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/shaiClass.java</url>
+          <line>68</line>
+          <properties class="shaiClass" method="isSpecialString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

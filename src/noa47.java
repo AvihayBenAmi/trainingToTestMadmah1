@@ -10,7 +10,6 @@ public class noa47 {
         int[] arr2 = {4, 3, 5, 3, 2, 1, 8};
         String date = "Avihay ben ami 123";
         exam47(date);
-
     }
 
     public static double exam1(int radius) {
