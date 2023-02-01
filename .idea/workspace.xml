@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c468efe7-ec6d-400d-883d-052bbe12450b" name="Changes" comment="26.01.23 23:57">
+      <change afterPath="$PROJECT_DIR$/src/testshai.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shaiClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaiClass.java" afterDir="false" />
     </list>
     <list id="cc68416b-bc12-45f3-8b84-4c75f75704ec" name="Changes by david" comment="Changes by david">
       <change beforePath="$PROJECT_DIR$/src/Strings2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings2.java" afterDir="false" />
@@ -83,7 +83,8 @@
       <workItem from="1674925789222" duration="6994000" />
       <workItem from="1674979390402" duration="20487000" />
       <workItem from="1675008619897" duration="33806000" />
-      <workItem from="1675155045961" duration="11607000" />
+      <workItem from="1675155045961" duration="19953000" />
+      <workItem from="1675232575989" duration="9648000" />
     </task>
     <task id="LOCAL‎-00001" summary="22.01.23 11:17">
       <created>1674379030510</created>
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1675162370255</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL‎-00019" summary="26.01.23 23:57">
+      <created>1675168650597</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL‎-00019" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1675168650597</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +284,26 @@
           <line>306</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testshai.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testshai.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/functions.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/testshai.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/functions.java</url>
           <line>72</line>
@@ -320,15 +348,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/examHIT.java</url>
-          <line>169</line>
-          <properties class="examHIT" method="noDuplicate">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/homework2.java</url>
@@ -428,6 +447,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/testshai.java</url>
+          <line>69</line>
+          <properties class="testshai" method="exam2x2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/testshai.java</url>
+          <line>117</line>
+          <properties class="testshai" method="checkShortestArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/functions.java</url>
+          <line>42</line>
+          <properties class="functions" method="isPrimeNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
